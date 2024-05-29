@@ -1,0 +1,12 @@
+.table {
+    margin-top: 1.5rem;
+    border-color: #79cc8d;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}

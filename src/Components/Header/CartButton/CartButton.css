@@ -1,0 +1,29 @@
+
+.cart-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #0a5e1f;
+    margin: 0.65rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.cart-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.65rem;
+    border-radius: 40px;
+    background-color: #1b7720;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cart-items p {
+    font-weight: bold;
+    color: white;
+    padding: 0;
+    margin: 0;
+}

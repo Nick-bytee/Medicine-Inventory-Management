@@ -1,0 +1,11 @@
+.header {
+    background-color:#79cc8d;
+    align-items: center;
+    display: flex;
+    justify-content: space-around
+}
+
+.header h2 {
+    color: white;
+    font-style: italic;
+}
