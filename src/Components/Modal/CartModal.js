@@ -41,7 +41,7 @@ const CartModal = (props) => {
                         <p>{`x${item.quantity}`}</p>
                     </div>
                     <div>
-                        <Button className='qty-button1'>+</Button>
+                        <Button onClick={() => cartProvider.increaseQuantity(item.id)} className='qty-button1'>+</Button>
                         <Button onClick={() => removeItemHandler(item.id)} className='qty-button2'>-</Button>
                     </div>
                 </li>

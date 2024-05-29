@@ -40,7 +40,10 @@ const CartProvider = (props) => {
     }
 
     const increaseQuantity  = (id) => {
-        
+        const itemIndex = items.findIndex(item => item.id === id)
+        const updatedItems = [...items]
+        updatedItems[itemIndex].quantity +=1
+        setItems(updatedItems)
     }
 
     const cartContext = {
@@ -48,7 +51,8 @@ const CartProvider = (props) => {
         totalAmount: 0,
         addItems: addToCartHandler,
         removeItems: removeFromCartHandler,
-        order : orderHandler
+        order : orderHandler,
+        increaseQuantity : increaseQuantity
     }
 
     return (
